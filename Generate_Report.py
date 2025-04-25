@@ -23,7 +23,7 @@ from llama_index.core.agent import FunctionCallingAgent
 
 os.environ["LLAMA_CLOUD_API_KEY"] = "YOUR_LLAMA_KEY"
 # Using OpenAI API for embeddings/llms
-os.environ["OPENAI_API_KEY"] =  "YOUR_OPRN_AI_KEY"
+os.environ["OPENAI_API_KEY"] =  "YOUR_OPEN_AI_KEY"
 st.title("📄  Report Generation Agent")
 
 end = time.time()
